@@ -1,0 +1,97 @@
+/* ---------- Skills Section ---------- */
+.skills-section {
+    padding: 60px 0;
+}
+
+.skills-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.skills-list {
+    margin-top: 1rem;
+}
+
+.skill-item {
+    margin-bottom: 1.2rem;
+}
+
+.skill-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.skill-name {
+    font-weight: 500;
+}
+
+.skill-percentage {
+    font-weight: 500;
+    color: #4A90E2;
+}
+
+.skill-bar {
+    background: #e9ecef;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.skill-progress {
+    height: 8px;
+    border-radius: 10px;
+}
+
+.tools-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tool-item {
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 1 1 40%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.tool-icon {
+    font-size: 1.5rem;
+}
+
+.certifications {
+    margin-top: 2rem;
+}
+
+.cert-title {
+    margin-bottom: 1rem;
+}
+
+.cert-item {
+    display: flex;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.cert-icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.cert-info h5 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.cert-info p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #6c757d;
+}

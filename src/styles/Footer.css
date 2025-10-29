@@ -1,0 +1,64 @@
+
+/* ---------- Footer Section ---------- */
+.footer-section {
+    background: #343a40;
+    color: #fff;
+    padding: 40px 0 20px 0;
+}
+
+.footer-title {
+    font-size: 1.5rem;
+}
+
+.footer-description {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+}
+
+.footer-subtitle {
+    margin-bottom: 1rem;
+    color: #adb5bd;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 0.8rem;
+}
+
+.footer-links a {
+    color: #adb5bd;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+.contact-info p {
+    margin-bottom: 0.8rem;
+}
+
+.back-to-top {
+    background: #4A90E2;
+    border: none;
+    margin-top: 1rem;
+    transition: background 0.3s ease;
+}
+
+.back-to-top:hover {
+    background: #357ABD;
+}
+
+.footer-bottom {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.copyright, .footer-note {
+    font-size: 0.85rem;
+}

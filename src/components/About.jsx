@@ -13,7 +13,7 @@ const About = () => {
 
    // Function to view the CV
   const handleViewCV = () => {
-    window.open('/resume.pdf', '_blank') // Opens in new tab
+    window.open('/Shakir_Ahamed_S.pdf', '_blank') // Opens in new tab
   }
 
   return (
@@ -47,7 +47,7 @@ const About = () => {
               
               <p className="about-text">
                 
-                  Hello! I’m Shakir Ahamed, a passionate and dedicated Electronics and Communication Engineering graduate with a strong interest in web development and programming. I am eager to grow, learn new technologies, and contribute to real-world projects with creativity and problem-solving skills.
+                  Hello! I'm Shakir Ahamed, a passionate and dedicated Electronics and Communication Engineering graduate with a strong interest in web development and programming. I am eager to grow, learn new technologies, and contribute to real-world projects with creativity and problem-solving skills.
                   <br /><br />
                   During my academic journey, I have built a solid foundation in programming languages such as <b>HTML, CSS, Bootstrap, JavaScript, Python</b>, frameworks like <b>React.js, Django</b> and Database like <b>SQLite, MySQL</b>. I am continuously exploring new tools and technologies to enhance my technical abilities and stay updated with industry trends.
                   <br /><br />
@@ -97,7 +97,7 @@ const About = () => {
                 </div>
               </div>
               
-              <a href="/resume.pdf" download="Shakir_Ahamed_Resume.pdf">
+              <a href="/Shakir_Ahamed_S.pdf" download="Shakir_Ahamed_Resume.pdf">
                 <button className="btn btn-primary about-btn">
                   Download CV
                 </button>

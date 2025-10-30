@@ -89,7 +89,15 @@ const Contact = () => {
      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-original.svg',
      url: 'https://app.netlify.com/teams/shakir-mui/projects', 
      color: 'cyan' 
+    },
+    { 
+    name: 'WhatsApp', 
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/whatsapp.svg",
+    url: 'https://wa.me/9952876617', 
+    color: 'green' 
     }
+
+    
     // { name: 'Twitter', icon: 'fab fa-twitter', url: 'https://twitter.com/Shakir_MUI', color: '#1da1f2' },
     // { name: 'Instagram', icon: 'fab fa-instagram', url: 'https://www.instagram.com/shakirahameds260/', color: '#e4405f' }
   ]

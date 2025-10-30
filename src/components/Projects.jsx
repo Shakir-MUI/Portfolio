@@ -5,6 +5,9 @@ import movie from '../assets/movie.png'
 import portf from '../assets/portfolio.png'
 import restarent from '../assets/restarunt.png'
 import weather from '../assets/weather.png'
+import crud from '../assets/crud_card.png'
+import tcrud from '../assets/tkintercrud.png'
+import tbill from '../assets/tkinterbill.png'
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all')
@@ -26,7 +29,7 @@ const Projects = () => {
       description: 'A sleek movie browsing platform built using HTML, CSS, and JavaScript with API integration. Users can search, filter, and explore various movies effortlessly. This project highlights working with APIs and dynamic content rendering.',
       image: movie,
       category: 'frontend',
-      technologies: ['React', 'HTML', 'CSS', 'JavaScript', 'Movie API (like OMDB API )'],
+      technologies: ['React', 'HTML', 'CSS', 'JavaScript', 'Movie API (like TMDB API )'],
       github: 'https://github.com/Shakir-MUI/Movie-Website.git',
       live: 'https://moviewebsiteidm.netlify.app/'
     },
@@ -37,8 +40,8 @@ const Projects = () => {
       image: portf,
       category: 'frontend',
       technologies: ['React', 'HTML', 'CSS', 'JavaScript'],
-      github: '#',
-      live: '#'
+      github: 'https://github.com/Shakir-MUI/Portfolio',
+      live: 'https://shakirportfolio.netlify.app/'
     },
     {
       id: 4,
@@ -59,17 +62,37 @@ const Projects = () => {
       technologies: ['HTML', 'CSS', 'JavaScript'],
       github: 'https://github.com/Shakir-MUI/Expense-Tracker.git',
       live: 'https://expensetrackeridm.netlify.app/'
+    },
+    {
+      id: 6,
+      title: 'CRUD Card',
+      description: 'The CRUD Card Project is a web app built using HTML, CSS, and JavaScript with a Mock API. It allows users to create, view, update, and delete data dynamically through stylish interactive cards. This project showcases frontend development, API integration, and responsive UI design.',
+      image: crud,
+      category: 'frontend',
+      technologies: ['HTML', 'CSS3', 'JavaScript', 'Mock API'],
+      github: 'https://github.com/Shakir-MUI/CRUD_Card',
+      live: 'https://crudcardproj.netlify.app/'
+    },
+    {
+      id: 7,
+      title: ' Tkinter CRUD ',
+      description: 'The Tkinter CRUD Project is a desktop application built using Python and Tkinter. It allows users to create, view, update, and delete data through a graphical user interface. This project showcases Python programming skills and GUI development.',
+      image: tcrud,
+      category: 'backend',
+      technologies: ['Python', 'Tkinter'],
+      github: 'https://github.com/Shakir-MUI/Tkinter_CRUD',
+      live: 'desktop'
+    },
+    {
+      id: 8,
+      title: 'Tkinter Billing System',
+      description: 'The Tkinter Billing System is a desktop application built using Python and Tkinter. It allows users to manage billing and invoicing through a graphical user interface. This project showcases Python programming skills and GUI development.',
+      image: tbill,
+      category: 'backend',
+      technologies: ['Python', 'Tkinter'],
+      github: 'https://github.com/Shakir-MUI/Tkinter_Billing',
+      live: 'desktop'
     }
-    // {
-    //   id: 6,
-    //   title: 'Portfolio Website',
-    //   description: 'Responsive portfolio website with modern design and animations',
-    //   image: 'https://via.placeholder.com/400x300/1ABC9C/ffffff?text=Portfolio',
-    //   category: 'frontend',
-    //   technologies: ['React', 'Bootstrap', 'CSS3'],
-    //   github: '#',
-    //   live: '#'
-    // }
   ]
 
   const filterButtons = [
@@ -122,9 +145,21 @@ const Projects = () => {
                       <a href={project.github} className="btn btn-outline-light btn-sm">
                         <i className="fab fa-github"></i> Code
                       </a>
-                      <a href={project.live} className="btn btn-primary btn-sm">
-                        <i className="fas fa-external-link-alt"></i> Live Demo
-                      </a>
+                      {project.live === "desktop" ? (
+                        <button className="btn btn-primary btn-sm"
+                          onClick={() =>
+                            alert(
+                              "⚠️ This project is a Desktop GUI. You can copy the code and run it in your code editor on your laptop. Thank You ✨"
+                            )
+                          }
+                        >
+                          <i className="fas fa-external-link-alt"></i> Live Demo
+                        </button>
+                      ) : (
+                        <a  href={project.live} className="btn btn-primary btn-sm"  target="_blank" rel="noopener noreferrer" >
+                          <i className="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                      )}
                     </div>
                   </div>
                 </div>

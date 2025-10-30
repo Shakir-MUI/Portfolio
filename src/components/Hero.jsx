@@ -9,7 +9,7 @@ const Hero = () => {
   const [loopNum, setLoopNum] = useState(0)
   const [typingSpeed, setTypingSpeed] = useState(150)
 
-  const roles = ['Full Stack Developer', 'Frontend Developer']
+  const roles = ['Full Stack Developer', 'Frontend Developer', 'Backend Developer']
 
   useEffect(() => {
     const handleTyping = () => {
@@ -51,7 +51,7 @@ const Hero = () => {
           <div className="col-lg-6">
             <div className="hero-content">
               <h1 className="hero-title">
-                Hi, I'm <span className="highlight">Shakir Ahamed S</span>
+                Hi,I'm <span className="highlight">Shakir Ahamed S</span>
               </h1>
               <h2 className="hero-subtitle">
                 I'm a <span className="typing-text">{text}</span>

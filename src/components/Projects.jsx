@@ -309,6 +309,20 @@ const Projects = () => {
             </a>
           </div>
         </div>
+        <br />
+        <div className="row">
+          <div className="col-12 text-center">
+            <a
+              href="https://vercel.com/shakir-ahameds-projects"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="btn btn-primary btn-lg">
+                View All Projects on Vercel
+              </button>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );

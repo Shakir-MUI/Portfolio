@@ -8,6 +8,8 @@ import weather from '../assets/weather.png'
 import crud from '../assets/crud_card.png'
 import tcrud from '../assets/tkintercrud.png'
 import tbill from '../assets/tkinterbill.png'
+import musicApp from '../assets/musicapp.png'
+import edtechApp from '../assets/edtech.png'
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all')
@@ -95,7 +97,7 @@ const Projects = () => {
     },
     {
       id: 9,
-      title: 'Music Streaming Web App (Full Stack)',
+      title: 'Music Streaming Web App',
       description: 'A full-stack Music Streaming Web Application developed with React (Vite) for the frontend and Django REST Framework for the backend. Users can search songs via the iTunes Search API, play previews, fetch lyrics dynamically, and manage favorites with authentication. The backend uses PostgreSQL and is deployed on Render, while the frontend is deployed on Vercel.',
       image: musicApp, 
       category: 'fullstack',
@@ -116,8 +118,8 @@ const Projects = () => {
       live: 'https://music-app-fs-frontend.vercel.app/home'
     },
     {
-      id: 9,
-      title: 'EdTech Learning Platform – Full Stack (LMS with Voice Support)',
+      id: 10,
+      title: 'EdTech Learning Platform',
       description: 'A production-ready full-stack EdTech Learning Management System built using React (Vite) and Django REST Framework. The platform features secure JWT-based authentication, structured course-topic-lesson hierarchy, interactive quizzes with scoring logic, real-time progress tracking, and integrated Text-to-Speech functionality using the Web Speech API for accessibility. The backend is powered by PostgreSQL and deployed on Render, while the frontend is deployed on Vercel with environment-based API configuration and secure CORS handling.',
       image: edtechApp,
       category: 'fullstack',

@@ -92,7 +92,55 @@ const Projects = () => {
       technologies: ['Python', 'Tkinter'],
       github: 'https://github.com/Shakir-MUI/Tkinter_Billing',
       live: 'desktop'
-    }
+    },
+    {
+      id: 9,
+      title: 'Music Streaming Web App (Full Stack)',
+      description: 'A full-stack Music Streaming Web Application developed with React (Vite) for the frontend and Django REST Framework for the backend. Users can search songs via the iTunes Search API, play previews, fetch lyrics dynamically, and manage favorites with authentication. The backend uses PostgreSQL and is deployed on Render, while the frontend is deployed on Vercel.',
+      image: musicApp, 
+      category: 'fullstack',
+      technologies: [
+        'React.js (Vite)',
+        'Django REST Framework',
+        'PostgreSQL',
+        'Axios',
+        'iTunes Search API',
+        'Lyrics.ovh API',
+        'Render',
+        'Vercel'
+      ],
+      github: {
+        frontend: 'https://github.com/Shakir-MUI/Music-App-FS-Frontend',
+        backend: 'https://github.com/Shakir-MUI/Music-App-FS-Backend'
+      },
+      live: 'https://music-app-fs-frontend.vercel.app/home'
+    },
+    {
+      id: 9,
+      title: 'EdTech Learning Platform – Full Stack (LMS with Voice Support)',
+      description: 'A production-ready full-stack EdTech Learning Management System built using React (Vite) and Django REST Framework. The platform features secure JWT-based authentication, structured course-topic-lesson hierarchy, interactive quizzes with scoring logic, real-time progress tracking, and integrated Text-to-Speech functionality using the Web Speech API for accessibility. The backend is powered by PostgreSQL and deployed on Render, while the frontend is deployed on Vercel with environment-based API configuration and secure CORS handling.',
+      image: edtechApp,
+      category: 'fullstack',
+      technologies: [
+        'React.js (Vite)',
+        'Django REST Framework',
+        'PostgreSQL',
+        'JWT Authentication',
+        'Web Speech API (Text-to-Speech)',
+        'Axios',
+        'RESTful APIs',
+        'Role-Based Access Control',
+        'Render (Backend Deployment)',
+        'Vercel (Frontend Deployment)',
+        'CORS Configuration',
+        'Gunicorn + Whitenoise'
+      ],
+      github: {
+        frontend: 'https://github.com/Shakir-MUI/EdTech-FS-Frontend',
+        backend: 'https://github.com/Shakir-MUI/EdTech-FS-Backend'
+      },
+      live: 'https://ed-tech-fs-frontend.vercel.app/'
+    },
   ]
 
   const filterButtons = [
